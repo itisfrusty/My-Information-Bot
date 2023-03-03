@@ -1,7 +1,7 @@
 import telebot
 from telebot import types
 
-bot = telebot.TeleBot('5914667774:AAEstCwyiTPIrJkwFf5051XXIt7jk_dDwZg')
+bot = telebot.TeleBot('some key')
 
 #контекстное меню со всеми командами
 @bot.message_handler(commands=['start'])
